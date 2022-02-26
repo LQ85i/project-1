@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+
+.header {
+    border: 1px solid black;
+    min-height: 100px;
+}
+.intro {
+    border: 1px solid black;
+    min-height: 100px;
+}
+.info {
+    border: 1px solid black;
+    min-height: 100px;
+}
+.invitation {
+    border: 1px solid black;
+    min-height: 100px;
+    flex-grow: 1;
+}
+
+.footer {
+    border: 1px solid black;
+    min-height: 100px;
+}
