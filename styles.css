@@ -209,8 +209,61 @@ body {
 .invitation {
     /* border: 1px solid black; */
     min-height: 200px;
+    display: flex;
     flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
 }
+.invitation .contents {
+    /* border: 1px solid black; */
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 0 120px;
+    margin-bottom: auto;
+}
+.invitation .contents .left {
+    display: flex;
+    flex: 2 1 auto;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    padding: 30px 30px 30px 0;
+    color: #F9FAF8;
+    
+}
+.invitation .contents .left .title {
+    font-weight: 700;
+    font-size: 24px;
+}
+.invitation .contents .left .subtext{
+    font-weight: 300;
+    font-size: 20px;
+}
+.invitation .contents .right {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding: 30px;
+}
+.invitation .contents .right .signup-button {
+    border-style:none;
+    border: 3px solid #F9FAF8;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8; 
+    font-weight: 700;
+    font-size: 20px;
+    width: 150px;
+    padding: 8px 24px;
+}
+
 
 .footer {
     /* border: 1px solid black; */
