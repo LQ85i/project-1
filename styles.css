@@ -122,6 +122,7 @@ body {
     display: flex;
     flex: 1;
     flex-direction: column;
+    padding-bottom: 150px;
 }
 
 .info .title {
@@ -174,7 +175,36 @@ body {
 }
 .quotes {
     /* border: 1px solid black; */
-    min-height: 200px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 150px;
+}
+.quotes .quote {
+    /* border: 1px solid black; */
+    display: flex;
+    flex: 1;
+    max-width: 1000px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    padding-top: 100px;
+}
+.quotes .author {
+    /* border: 1px solid black; */
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    text-align: right;
+    font-weight: 500;
+    font-size: 24px;
+    width: 1000px;
+    padding-top: 8px;
+    padding-bottom: 100px;
 }
 .invitation {
     /* border: 1px solid black; */
